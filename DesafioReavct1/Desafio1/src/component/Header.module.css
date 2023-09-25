@@ -1,0 +1,62 @@
+.header {
+    background: var(--gray-700);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    height: 12.5rem;    
+}
+
+.header img {
+    text-align: center;
+    width: 7.8rem ;
+    height: 3rem;
+}
+
+
+
+
+.newTaref {
+    margin: 0 auto; 
+   
+   
+}
+
+.newTaref input {
+    background: var(--gray-500);
+    border: none;
+    border-radius: 8px;
+    position: relative;
+    top: 6.36rem;
+    height: 3.37rem;
+    width: 39.87rem;
+}
+
+.newTaref button {
+    background: var(--blue-dark);
+    border: none;
+    border-radius: 8px;
+    color: var(--gray-100);
+    padding: 1rem;
+    font-size: 0.87rem;
+    font-weight: bold;
+    position: relative;
+    top: 6.36rem;
+    left: .5rem;
+    width: 5.62rem;
+    height: 3.25rem;
+}
+
+.logoCircle {
+    color: var(--gray-100);
+    font-weight: bold;
+    position: relative;
+    top: 0.2rem;
+    left: 0.1rem;
+    width: 1rem;
+    height: 1rem;
+}
+
+input::placeholder {
+    padding: 1rem;
+    color: var(--gray-300);
+}
